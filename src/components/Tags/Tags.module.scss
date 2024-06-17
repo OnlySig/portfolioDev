@@ -1,0 +1,10 @@
+.TagImage {
+    width: 42px;
+    transition: ease-in-out .2s;
+}
+.TagImage:hover {
+    position: relative;
+    top: -19px;
+    width: 80px;
+    height: 80px;
+}

@@ -1,0 +1,27 @@
+.navContainer {
+    h1 {
+        color: #FFF;
+    }
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    .listAncor__container {
+        display: flex;
+        gap: 42px;
+        a {
+            color: #FFF;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        a:hover {
+            border-bottom: 1px solid #FFF;
+        }
+    }
+    .linksMidias {
+        border-left: 1px solid #F8F7F9;
+        a {
+            margin-left: 42px;
+            color: #F8F7F9;
+        }
+    }
+}

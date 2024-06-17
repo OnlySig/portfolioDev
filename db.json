@@ -1,0 +1,40 @@
+{
+    "tags": [
+        {
+            "tagSrc": "/tags/htmlTag.png",
+            "tagName": "HTML"
+        },
+        {
+            "tagSrc": "/tags/cssTag.png",
+            "tagName": "CSS"
+        },
+        {
+            "tagSrc": "/tags/jsTag.png",
+            "tagName": "JS"
+        },
+        {
+            "tagSrc": "/tags/typescriptTag.svg",
+            "tagName": "TS"
+        },
+        {
+            "tagSrc": "/tags/reactTag.png",
+            "tagName": "REACT"
+        },
+        {
+            "tagSrc": "/tags/nextTag.svg",
+            "tagName": "NEXTJS"
+        },
+        {
+            "tagSrc": "/tags/reduxTag.png",
+            "tagName": "REDUX"
+        },
+        {
+            "tagSrc": "/tags/postgreTag.png",
+            "tagName": "POSTGRES"
+        },
+        {
+            "tagSrc": "/tags/dockerTag.png",
+            "tagName": "DOCKER"
+        }
+    ]
+}
