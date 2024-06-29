@@ -1,0 +1,36 @@
+.container__card {
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #bebebe;
+    border-radius: 20px;
+    padding: 20px 30px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.15), 0 4px 8px rgba(0, 0, 0, 0.15), 0 8px 16px rgba(0, 0, 0, 0.15), 0 16px 32px rgba(0, 0, 0, 0.15), 0 32px 64px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    h1 {
+        color: #FFF;
+    }
+    span {
+        display: flex;
+        gap: 8px;
+    }
+    .tag__container {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .tag__item {
+        font-size: 12px;
+        font-weight: 600;
+        color: #FFF;
+        text-transform: lowercase;
+        border: 1px solid #bebebe;
+        padding: 4px 14px;
+        border-radius: 8px;
+        margin: 8px 0;
+    }
+    img {
+        width: 320px;
+        height: 180px;
+        border-radius: 8px;
+    }
+}

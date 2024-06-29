@@ -3,5 +3,22 @@
     .projectTitle__container {
         text-align: center;
         color: #FFF;
+        margin-bottom: 30px;
+        h1 {
+            font-size: 30px;
+        }
+    }
+    .container__port {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px;
+        list-style: none;
+    }
+    .item__project {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
     }
 }
