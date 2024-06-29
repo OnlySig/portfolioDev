@@ -1,0 +1,57 @@
+.knowledgeContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    img {
+        width: 400px;
+    }
+    .aboutMe__container {
+        max-width: 500px;
+        h1 {
+            font-size: 30px;
+            color: #FFF;
+        }
+        h3 {
+            color: #FFF;
+        }
+        span {
+            opacity: 50%;
+            color: #F8F7F9;
+        }
+        .text__aboutMe{
+            display: block;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        .infoAccount__container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .infoAccount {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        .slash {
+            opacity: .7;
+            color: #FFF;
+        }
+        
+    }
+    .comingSoon {
+        h2 {
+            color: #FFF;
+            margin: 6px 0 20px 0;
+        }
+        .estudandoContainer {
+            display: flex;
+            justify-content: space-between;
+        }
+        .estudando {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+    }
+}

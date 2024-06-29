@@ -36,5 +36,37 @@
             "tagSrc": "/tags/dockerTag.png",
             "tagName": "DOCKER"
         }
+    ],
+    "projetos": [
+        {
+            "id": 1,
+            "tags": ["NEXTJS", "TS", "PRISMA", "POSTGRES", "DOCKER"],
+            "name": "CodeConnect",
+            "links": ["https://github.com/OnlySig/CodeConnect-next14-main", "https://code-connect-next14-main.vercel.app/"]
+        },
+        {
+            "id": 2,
+            "tags": ["REACT", "REDUX", "TS"],
+            "name": "TratoTech",
+            "links": ["https://github.com/OnlySig/tratoTech"]
+        },
+        {
+            "id": 3,
+            "tags": ["VUE", "TS"],
+            "name": "cookinUp",
+            "links": ["https://github.com/OnlySig/cookinUp-vue"]
+        },
+        {
+            "id": 4,
+            "tags": ["REACT", "TS", "SCSS"],
+            "name": "Alurone",
+            "links": ["https://github.com/OnlySig/use-memo", "https://alurone.vercel.app/"]
+        },
+        {
+            "id": 5,
+            "tags": ["HTML", "JS", "CSS", "LOCALSTORAGE"],
+            "name": "crud-JS-LocalStorage",
+            "links": ["https://github.com/OnlySig/crud-JS-LocalStorage", "https://onlysig.github.io/crud-JS-LocalStorage/index.html"]
+        }
     ]
 }

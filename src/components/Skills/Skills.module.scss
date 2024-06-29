@@ -1,5 +1,5 @@
 .container__skillContent {
-    margin-top: 100px;
+    margin: 100px 0px;
     h1 {
         color: #FFF;
         margin-bottom: 16px;
@@ -10,6 +10,7 @@
         padding: 20px;
         border-radius: 20px;
         display: flex;
+        //flex-wrap: wrap;
         justify-content: space-evenly;
         max-height: 84px;
     }

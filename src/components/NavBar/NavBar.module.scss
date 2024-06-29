@@ -2,6 +2,7 @@
     h1 {
         color: #FFF;
     }
+    z-index: 2;
     margin-top: 32px;
     display: flex;
     justify-content: space-between;
@@ -15,13 +16,33 @@
         }
         a:hover {
             border-bottom: 1px solid #FFF;
+            font-weight: 700;
         }
     }
     .linksMidias {
         border-left: 1px solid #F8F7F9;
         a {
+            padding-top: 4px;
             margin-left: 42px;
             color: #F8F7F9;
         }
     }
+}
+.navDown {
+    position: fixed;
+    top: 20px;
+    width: 91%;
+    max-width: 1312px;
+    margin: 0;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 
+        0 1px 2px rgba(0, 0, 0, 0.15),
+        0 2px 4px rgba(0, 0, 0, 0.15),
+        0 4px 8px rgba(0, 0, 0, 0.15),
+        0 8px 16px rgba(0, 0, 0, 0.15),
+        0 16px 32px rgba(0, 0, 0, 0.15),
+        0 32px 64px rgba(0, 0, 0, 0.15);
 }
