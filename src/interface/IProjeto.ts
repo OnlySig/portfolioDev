@@ -3,5 +3,6 @@ export interface IProjeto {
     tags: string[],
     name: string,
     image: string,
-    links: string[]
+    links: string[],
+    description: string
 }

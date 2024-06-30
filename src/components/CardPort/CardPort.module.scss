@@ -1,11 +1,9 @@
 .container__card {
     text-align: center;
     background-color: transparent;
-    border: 1px solid #bebebe;
     border-radius: 20px;
     padding: 20px 30px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.15), 0 4px 8px rgba(0, 0, 0, 0.15), 0 8px 16px rgba(0, 0, 0, 0.15), 0 16px 32px rgba(0, 0, 0, 0.15), 0 32px 64px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
     h1 {
         color: #FFF;
     }
@@ -32,5 +30,65 @@
         width: 320px;
         height: 180px;
         border-radius: 8px;
+    }
+}
+
+.container__cardModal {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 14px;
+    img {
+        width: 500px;
+    }
+    .titleModal {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    h1 {
+        color: #FFF;
+    }
+    P {
+        opacity: 50%;
+        color: #F8F7F9;
+    }
+    .tag__item {
+        font-size: 12px;
+    }
+    .onlyModalPort {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .tag__container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        .tag__item {
+            list-style: none;
+            opacity: 50%;
+            color: #F8F7F9;
+        }
+    }
+    .links__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        .demo {
+            text-decoration: none;
+            padding: 4px 8px;
+            border: 1px solid #bebebe;
+            border-radius: 18px;
+            font-size: 18px;
+        }
+        a {
+            color: #F8F7F9;
+            font-size: 24px;
+        }
     }
 }

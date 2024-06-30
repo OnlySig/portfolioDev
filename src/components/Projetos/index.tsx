@@ -3,6 +3,7 @@ import db from '../../../db.json'
 import { useState } from 'react'
 import { IProjeto } from '../../interface/IProjeto'
 import CardPort from '../CardPort'
+import ModalPort from '../ModalPort'
 
 const Projetos = () => {
     const [projetos] = useState<IProjeto[]>(db.projetos)
@@ -17,6 +18,7 @@ const Projetos = () => {
                 projetos.map(projeto => 
                     <li key={projeto.id} className={styles.item__project}>
                         <CardPort projeto={projeto}/>
+                        <ModalPort projeto={projeto}/>
                     </li>
                 )
             }

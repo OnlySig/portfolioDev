@@ -1,0 +1,19 @@
+.btnModal__Port {
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #e7e7e7;
+    padding: 6px 12px;
+    color: #FFF;
+    border-radius: 0 0 8px 8px;
+    border-top: none;
+    transition: .1s all;
+}
+.btnModal__Port:hover {
+    padding: 6px 18px;
+    background-color: #e7e7e7;
+    color: #6b6b6b;
+    font-weight: 700;
+    text-transform: uppercase;
+}
