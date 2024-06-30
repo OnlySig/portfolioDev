@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
         <NavBar/>
-        <header className={styles.headerContainer}>
+        <header id='home' className={styles.headerContainer}>
             <div className={styles.headerItemDev}>
                 <h3>Ola!, me chamo Gabriel.</h3>
                 <h1>SOU UM FRONT-END DEVELOPER</h1>

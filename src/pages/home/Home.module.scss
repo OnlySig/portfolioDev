@@ -1,6 +1,18 @@
-.home__container {
-    margin: 0 auto;
-    max-width: 1440px;
+.content {
     padding: 0 64px;
-    height: 100vh;
+}
+.toggleBtn {
+    position: absolute;
+    right: 25px;
+    z-index: 10;
+}
+
+.off {
+    display: none;
+}
+
+@media screen and (max-width: 646px) {
+    .off {
+        display: block;
+    }
 }
