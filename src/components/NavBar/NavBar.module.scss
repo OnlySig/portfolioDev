@@ -57,7 +57,7 @@
         flex-direction: column;
         text-align: center;
         width: 100%;
-        height: 55%;
+        height: auto;
         position: fixed;
         background-color: #000;
         transform: translateX(630px);
@@ -67,7 +67,7 @@
         transition: .5s all;
     }
     .off {
-        transform: translateX(-0px);
+        transform: translateX(-24px);
     }
     .listAncor__container {
         flex-direction: column;
@@ -75,5 +75,10 @@
     }
     .navDown {
         border-radius: 0;
+    }
+}
+@media screen and (max-width: 374px) {
+    .off {
+        transform: translateX(0px);
     }
 }
