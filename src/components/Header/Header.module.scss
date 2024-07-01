@@ -47,3 +47,27 @@
         flex-direction: column;
     }
 }
+@media screen and (max-width: 646px) {
+    .headerItemDev {
+        h1 {
+            font-size: 42px !important;
+        }
+    }
+    .headerContainer {
+        gap: 20px;
+    }
+    .headerItemImage {
+        img {
+            width: 300px;
+        }
+    }
+}
+@media screen and (max-width: 350px) {
+    .headerItemDev {
+        width: auto !important;
+        text-align: center;
+        a {
+            width: auto !important;
+        }
+    }
+}

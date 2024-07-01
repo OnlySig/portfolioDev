@@ -61,3 +61,10 @@
         flex-direction: column;
     }
 }
+@media screen and (max-width: 400px) {
+    .knowledgeContainer {
+        img {
+            width: 300px;
+        }
+    }
+}

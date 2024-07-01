@@ -6,6 +6,7 @@ import Projetos from "../../components/Projetos"
 import Skills from "../../components/Skills"
 import styles from './Home.module.scss' 
 import { ToogleBtnContext } from "../../context/toogleBtn"
+import NavBar from "../../components/NavBar"
 
 const Home = () => {
   const { state, setState } = useContext(ToogleBtnContext)
@@ -13,6 +14,7 @@ const Home = () => {
     <>
       <main className={styles.content}>
         <button onClick={()=>setState(!state)} className={`${styles.toggleBtn} ${styles.off}`}>X</button>
+        <NavBar/>
         <Header/>
         <Skills/>
         <About/>

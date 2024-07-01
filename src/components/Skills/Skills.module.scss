@@ -10,8 +10,12 @@
         padding: 20px;
         border-radius: 20px;
         display: flex;
-        //flex-wrap: wrap;
         justify-content: space-evenly;
-        max-height: 84px;
+    }
+}
+
+@media screen and (max-width: 646px) {
+    .listContainer {
+        flex-wrap: wrap;
     }
 }

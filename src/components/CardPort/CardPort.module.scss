@@ -92,3 +92,22 @@
         }
     }
 }
+
+@media screen and (max-width: 820px) {
+    .container__cardModal {
+        flex-direction: column-reverse;
+        img {
+            width: auto;
+        }
+    }
+}
+@media screen and (max-width: 420px) {
+    .container__card {
+        padding: 20px 16px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .container__card {
+        padding: 0;
+    }
+}

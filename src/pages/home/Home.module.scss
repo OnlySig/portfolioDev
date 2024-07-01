@@ -2,7 +2,7 @@
     padding: 0 64px;
 }
 .toggleBtn {
-    position: absolute;
+    position: fixed;
     right: 25px;
     z-index: 10;
 }
@@ -14,5 +14,14 @@
 @media screen and (max-width: 646px) {
     .off {
         display: block;
+    }
+    .content {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .content {
+        padding: 0px;
     }
 }
