@@ -42,7 +42,7 @@
             "id": 1,
             "tags": ["NEXTJS", "TS", "PRISMA", "POSTGRES", "DOCKER"],
             "name": "CodeConnect",
-            "image": "/public/images/codeConnectPage.png",
+            "image": "/images/codeConnectPage.png",
             "links": ["https://github.com/OnlySig/CodeConnect-next14-main", "https://code-connect-next14-main.vercel.app/"],
             "description": "Esse projeto utiliza Next.js com TypeScript e Prisma para o gerenciamento de banco de dados, vulgo ORM. Ele está configurado para desenvolvimento local e implantação no Vercel, com ESLint para garantir a qualidade do código. "
         },
@@ -50,7 +50,7 @@
             "id": 2,
             "tags": ["REACT", "REDUX", "TS"],
             "name": "TratoTech",
-            "image": "/public/images/tratoTechPage.png",
+            "image": "/images/tratoTechPage.png",
             "links": ["https://github.com/OnlySig/tratoTech"],
             "description": "Esse projeto utiliza o Redux-Saga, uma biblioteca que facilita o gerenciamento de efeitos colaterais assíncronos em aplicações Redux, tornando-os mais eficientes, fáceis de testar e melhores no manuseio de falhas. Sagas funcionam como threads separadas na aplicação, responsáveis exclusivamente por esses efeitos, podendo ser iniciadas, pausadas e canceladas a partir de ações normais do Redux​"
         },
@@ -58,7 +58,7 @@
             "id": 3,
             "tags": ["VUE", "TS"],
             "name": "cookinUp",
-            "image": "/public/images/cookingUp.png",
+            "image": "/images/cookingUp.png",
             "links": ["https://github.com/OnlySig/cookinUp-vue"],
             "description": "Esse projeto ainda está em desenvolvimento, pois ainda estou estudando vue, contudo é um projeto para entender os métodos basiláres do vue, mas quando o projeto chegar no seu fim será possivel pesquisar receitas clicando nas tags"
         },
@@ -66,7 +66,7 @@
             "id": 4,
             "tags": ["REACT", "TS", "SCSS"],
             "name": "Alurone",
-            "image": "/public/images/aluronePage.png",
+            "image": "/images/aluronePage.png",
             "links": ["https://github.com/OnlySig/use-memo", "https://alurone.vercel.app/"],
             "description": "esse projeto demonstra como otimizar a performance de uma aplicação React utilizando o hook useMemo. Esse projeto foi iniciado com Create React App e está escrito em TypeScript. Ele mostra exemplos práticos de como memoizar valores computados pesados para evitar recalculações desnecessárias e melhorar a eficiência da aplicação. Este projeto tem react-router-dom e várias paginas tanto estaticas quanto reativas"
         },
@@ -74,7 +74,7 @@
             "id": 5,
             "tags": ["HTML", "JS", "CSS", "LOCALSTORAGE"],
             "name": "crud-JS-LocalStorage",
-            "image": "/public/images/crudJsPage.png",
+            "image": "/images/crudJsPage.png",
             "links": ["https://github.com/OnlySig/crud-JS-LocalStorage", "https://onlysig.github.io/crud-JS-LocalStorage/index.html"],
             "description": "Esse projeto é um exemplo de uma aplicação CRUD (Create, Read, Update, Delete) em JavaScript que utiliza o LocalStorage do navegador para armazenar dados. Ele inclui arquivos HTML para a interface, CSS para estilização e JavaScript para a lógica do CRUD. O projeto demonstra como adicionar, editar e remover dados persistidos no LocalStorage, proporcionando uma base para entender a manipulação de dados no armazenamento local do navegador."
         }
